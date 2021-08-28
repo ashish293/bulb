@@ -52,14 +52,14 @@
 		<script>
 			const container = document.querySelector(".container");
 			const bulb = document.querySelector(".bulb");
-			const bulboff = () => {
+			function bulboff() {
 				bulb.setAttribute("src", "bulboff.png");
 				container.classList.remove("container-on");
-			};
-			const bulbon = () => {
+			}
+			function bulbon() {
 				bulb.setAttribute("src", "bulbon.png");
 				container.classList.add("container-on");
-			};
+			}
 		</script>
 	</body>
 </html>
